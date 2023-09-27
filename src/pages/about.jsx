@@ -48,22 +48,24 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								
+								<div className="about-socials">
+									<Socials />
+								</div>
 							</div>
 
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="profile.jpg"
 											alt="about"
 											className="about-image"
 										/>
 									</div>
 								</div>
 
-								<div className="about-socials">
-									<Socials />
-								</div>
+								
 							</div>
 						</div>
 						<div className="about-socials-mobile">
